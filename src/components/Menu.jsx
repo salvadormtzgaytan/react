@@ -27,6 +27,9 @@ export default function Menu() {
         <Link to="/posts" style={{ color: "green" }}>
           Ver Posts (API)
         </Link>
+        <Link to="/products" style={{ color: "gray", marginLeft: "15px" }}>
+          Ver Productos
+        </Link>
       </div>
 
       <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>

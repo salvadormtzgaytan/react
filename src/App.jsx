@@ -3,6 +3,7 @@ import Inicio from "./pages/Inicio";
 import Perfil from "./pages/Perfil";
 import Posts from "./pages/Posts"; // Importamos la nueva página
 import Menu from "./components/Menu";
+import ProductsPage from "./pages/ProductsPage";
 
 export default function App() {
   return (
@@ -13,7 +14,8 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Inicio />} />
           <Route path="/perfil" element={<Perfil />} />
-          <Route path="/posts" element={<Posts />} /> {/* Nueva ruta */}
+          <Route path="/posts" element={<Posts />} />
+          <Route path="/products" element={<ProductsPage />} />
           <Route path="*" element={<h2>404</h2>} />
         </Routes>
       </div>
