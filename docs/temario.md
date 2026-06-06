@@ -1,9 +1,3 @@
-¡Qué excelente perfil para dar el salto a React! Venir de jQuery, HTML5, CSS y JavaScript clásico significa que ya entiendes cómo funciona el DOM, el navegador y la web en su núcleo. Tu mayor reto no será aprender JavaScript, sino **cambiar el paradigma mental**: pasar de un enfoque *imperativo* (donde tú le dices al navegador paso a paso cómo cambiar el DOM, estilo `$("#id").hide()`) a un enfoque *declarativo* (donde declaras cómo debería verse la interfaz según los datos, y React se encarga de actualizar el DOM).
-
-Aquí tienes tu ruta de aprendizaje de 0 a experto, diseñada específicamente para tu perfil:
-
----
-
 ### Fase 0: El Cambio de Paradigma mental (Desaprendiendo jQuery)
 
 Antes de escribir tu primer componente en React, debes entender la filosofía detrás de la librería.
